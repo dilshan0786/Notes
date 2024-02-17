@@ -98,6 +98,10 @@ main{
   color: #fff;
   margin-top: 40px;
   border-radius: 50px;
+  transition: all ease 0.2s;
+}
+button:active{
+  scale: 0.9;
 }
 .btn-syllabus{
   width: 300px;
