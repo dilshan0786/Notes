@@ -132,6 +132,10 @@ nav div i{
   outline: none;
   margin: 0px 10px;
   font-size: 18px;
+  transition: all ease 0.2s;
+}
+.box2 button:active{
+  scale: 0.9;
 }
 
 
