@@ -90,7 +90,7 @@ main{
 .boxb button{
   height: 50px;
   width: 200px;
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 800;
   background-color: blue;
   border: none;
@@ -125,6 +125,35 @@ button:active{
   background-position: center;
   background-repeat: no-repeat;
 }
+
+
+
+#dbms{
+  background: url(dbms.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#sp{
+  background: url(sp.jpg);
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+}
+#cg{
+  background: url(cg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#oops{
+  background: url(oops.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
 #boxchotha{
   margin: 0;
 }
@@ -215,15 +244,6 @@ input:checked + label .description {
     background-image: url('Dilshan.jpg');
 }
 .card[for="c2"] {
-    background-image: url('Maaj.jpg');
-}
-.card[for="c3"] {
-    background-image: url('Prince.jpg');
-}
-.card[for="c4"] {
-    background-image: url('azhar.jpg');
-}
-.card[for="c5"] {
     background-image: url('Sabhi.jpg');
 }
 footer{
